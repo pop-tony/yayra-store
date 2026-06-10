@@ -15,7 +15,7 @@ export default function Footer() {
     <footer className="border-t border-zinc-200 bg-zinc-50 text-zinc-900 dark:border-zinc-800 dark:bg-black dark:text-white">
       <div className="mx-auto max-w-7xl px-4 py-12">
         <div>
-          <h3 className="mb-4 text-2xl font-black">Pris<span className="text-rose-500">Aura</span></h3>
+          <h3 className="mb-4 text-2xl font-black">Yayra<span className="text-rose-500">Store</span></h3>
           <p className="text-sm text-zinc-600 dark:text-zinc-400">Buy anything, anywhere.</p>
         </div>
         <div className="grid grid-cols-3 gap-8 mt-3">
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-zinc-200 pt-8 dark:border-zinc-800 md:flex-row">
-          <p className="text-sm text-zinc-500 dark:text-zinc-500">© 2026 Marketplace. All rights reserved.</p>
+          <p className="text-sm text-zinc-500 dark:text-zinc-500">© 2026 Yayra Store. All rights reserved.</p>
           <div className="flex gap-4">
             {links.map(({ Icon, href, name }, i) => (
               <a

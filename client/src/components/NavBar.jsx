@@ -53,7 +53,7 @@ export default function NavBar() {
             onClick={() => navigate('/')}
             className="cursor-pointer text-2xl font-black tracking-tight transition hover:opacity-80"
           >
-            Pris<span className="text-rose-500">Aura</span>
+            Yayra<span className="text-rose-500">Store</span>
           </button>
 
           {/* Desktop Nav */}
